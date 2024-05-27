@@ -14,12 +14,12 @@
     "env": {
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "",
+            "value": "8045459",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "",
+            "value": "e6d1f09120e17a4372fe022dde88511b",
             "required": true
         },
         "BOT_TOKEN": {
@@ -29,12 +29,12 @@
         },
         "MONGO_DB_URI": {
             "description": "Get a MongoDB URL from https://cloud.mongodb.com.",
-            "value": "mongodb+srv://jarvisxd45:rajnish68mishra85@atlascluster.xkizs7c.mongodb.net/?retryWrites=true&w=majority",
+            "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "OWNER_ID": {
             "description": "The user ID of the user whom you would like to add as OWNER.",
-            "value": "",
+            "value": "1281282633",
             "required": true
         },
         "STRING_SESSION": {
@@ -54,17 +54,17 @@
         },
         "LOGGER_ID": {
             "description": "Your Log Group ID. Add your bot and promote as an admin with full rights!",
-            "value": "",
+            "value": "-1001735663878",
             "required": true
         },
         "GPT_API": {
             "description": "Your GPT API Key from OpenAI.",
-            "value": "",
+            "value": "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",
             "required": false
         },
         "PLAYHT_API": {
             "description": "Your PLAYHT API Key.",
-            "value": "",
+            "value": "22e323f342024c0fb4ee430eeb9d0011",
             "required": false
         }
     },
