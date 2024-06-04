@@ -209,11 +209,11 @@ HELP_18 = """
  /tagall  ➠  ғᴏʀ ʀᴀɴᴅᴏᴍʟʏ ғᴜɴɴʏ ᴛᴀɢs 😁.
  /gmtag ➠ ғᴏʀ ᴍᴏʀɴɪɴɢ ᴡɪsʜᴇs🥰.
  /gntag  ➠ ғᴏʀ ɴɪɢʜᴛ ᴡɪsʜᴇs 😴.
- /tamiltag  ➠  ᴛᴀɢ ᴍᴇᴍʙᴇʀs ɪɴ ʜɪɴᴅɪ ǫᴜᴏᴛᴇs.
- /heartbeat ➠ ᴛᴀɢ ɪɴ ᴇɴɢʟɪsʜ...
- /honeymoon ➠ ᴛᴏ ᴛᴀɢ ɪɴ ʙᴇɴɢᴀʟɪ...
- /vctag  ➠ ᴛᴀɢ ᴍᴇᴍʙᴇʀs ɪɴ ᴇɴɢʟɪsʜ ǫᴜᴏᴛᴇs.
- /single   ➠ ᴛᴀɢ ᴀʟʟ ᴍᴇᴍʙᴇʀs ᴡɪᴛʜ sʜᴀʏʀɪ😜.
+ /tamiltag  ➠  ᴛᴀɢ ᴍᴇᴍʙᴇʀs ɪɴ Tamil ǫᴜᴏᴛᴇs.
+ /heartbeat ➠ ᴛᴀɢ ɪɴ Love Mood...
+ /honeymoon ➠ ᴛᴏ ᴛᴀɢ ɪɴ Romantic...
+ /vctag  ➠ ᴛᴀɢ ᴍᴇᴍʙᴇʀs ɪɴ VC.
+ /single   ➠ ᴛᴀɢ ᴀʟʟ ᴍᴇᴍʙᴇʀs ᴡɪᴛʜ broken😜.
  /cancel  ➠ sᴛᴏᴘ ᴍᴇɴᴛɪᴏɴɪɴɢ
  
 ✧ᴛʜᴇsᴇ ᴍᴏᴅᴜʟᴇs ʙʏ ➪ [𝅗ـﮩ٨ـ𝅽𝅾𓆩𝞖𝘌𝘈𝘙𝘛𝂬♡𝂬𝞑𝘌𝘈𝘛▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ𓆪ﮩ٨ـ𝅽𝅾‐𝅘](https://t.me/HeartBeat_Muzic)"""
