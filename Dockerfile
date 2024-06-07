@@ -9,6 +9,7 @@ COPY . /app/
 WORKDIR /app/
 
 # Upgrade pip
+RUN python -m pip install "pymongo[srv]"
 RUN python3 -m pip install --no-cache-dir --upgrade pip
 
 # Install Python dependencies
