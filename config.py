@@ -9,7 +9,7 @@ load_dotenv()
 # Telegram API credentials - Get these from the Telegram API website
 API_ID = int(getenv("API_ID","8045459"))
 API_HASH = getenv("API_HASH", "e6d1f09120e17a4372fe022dde88511b")
-BOT_TOKEN = getenv("BOT_TOKEN", "2096983652:AAFxrSQZQRCp3jbuzbxUOKOhBqOf1aLRDoc")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
 OWNER_USERNAME = getenv("OWNER_USERNAME","rajeshrakis")
@@ -52,7 +52,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 
 # Pyrogram session strings - You need to generate these yourself
-STRING1 = getenv("STRING_SESSION", "BQB_AAoAsHK7BY_MzRUke2pcIXv-EOKf3mBAlLD9JHl6C3s9dScWz50-6A9-0BMwJsZ0iWo5RnW5zDp5L1gxKF6X5zL-HWOnrkQTHSv2s9_5l0CFek70h5b9osfmvMtVlXfzv2xMygxSMOBebbDXcoKG_tRKeZyqBc1bZBMF3TUOH8-SN6YbNcCuW30kAq99_X9KLzfpUwcTvXjtR85az_u82twa-heGRZiqry5MJkvLAQuBJGXBVlx7jFmDfZzVMRoWUDF2VOjtOh1vt4Ez1FkNqnHEJnQauoBjxhUigq-BSUvoiFhVVVMQTdV5oeN2bjVpEGiNta2qch7Agb7nC4lIR03-7gAAAAB8rK97AA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
