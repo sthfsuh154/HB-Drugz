@@ -7,7 +7,7 @@ from pyrogram import filters
 load_dotenv()
 
 # Telegram API credentials - Get these from the Telegram API website
-API_ID = int(getenv("API_ID",8045459))
+API_ID = int(getenv("API_ID","8045459"))
 API_HASH = getenv("API_HASH", "e6d1f09120e17a4372fe022dde88511b")
 BOT_TOKEN = getenv("BOT_TOKEN", "2096983652:AAFxrSQZQRCp3jbuzbxUOKOhBqOf1aLRDoc")
 
@@ -18,7 +18,7 @@ BOT_NAME = getenv("BOT_NAME", "𝞖𝘌𝘈𝘙𝘛𝞑𝘌𝘈𝘛𝂬♡𝂬�
 ASSUSERNAME = getenv("ASSUSERNAME", "ice_babygirl")
 EVALOP = list(map(int, getenv("EVALOP", "5059737154").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://zewdatabase:ijoXgdmQ0NCyg9DO@zewgame.urb3i.mongodb.net/ontap?retryWrites=true&w=majority")
-LOGGER_ID = int(getenv("LOGGER_ID", -1001735663878))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001735663878"))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API", "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")
@@ -52,7 +52,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 
 # Pyrogram session strings - You need to generate these yourself
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQB_AAoAsHK7BY_MzRUke2pcIXv-EOKf3mBAlLD9JHl6C3s9dScWz50-6A9-0BMwJsZ0iWo5RnW5zDp5L1gxKF6X5zL-HWOnrkQTHSv2s9_5l0CFek70h5b9osfmvMtVlXfzv2xMygxSMOBebbDXcoKG_tRKeZyqBc1bZBMF3TUOH8-SN6YbNcCuW30kAq99_X9KLzfpUwcTvXjtR85az_u82twa-heGRZiqry5MJkvLAQuBJGXBVlx7jFmDfZzVMRoWUDF2VOjtOh1vt4Ez1FkNqnHEJnQauoBjxhUigq-BSUvoiFhVVVMQTdV5oeN2bjVpEGiNta2qch7Agb7nC4lIR03-7gAAAAB8rK97AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
