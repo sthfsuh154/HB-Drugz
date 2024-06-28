@@ -7,9 +7,9 @@ from pyrogram import filters
 load_dotenv()
 
 # Telegram API credentials - Get these from the Telegram API website
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("API_ID",8045459))
+API_HASH = getenv("API_HASH", "e6d1f09120e17a4372fe022dde88511b")
+BOT_TOKEN = getenv("BOT_TOKEN", "2096983652:AAFxrSQZQRCp3jbuzbxUOKOhBqOf1aLRDoc")
 
 # Specify where to get the following credentials
 OWNER_USERNAME = getenv("OWNER_USERNAME","rajeshrakis")
@@ -17,12 +17,12 @@ BOT_USERNAME = getenv("BOT_USERNAME", "thedakkidaikathaval_bot")
 BOT_NAME = getenv("BOT_NAME", "𝞖𝘌𝘈𝘙𝘛𝞑𝘌𝘈𝘛𝂬♡𝂬𝘿𝘙𝘜𝘎𝘡")
 ASSUSERNAME = getenv("ASSUSERNAME", "ice_babygirl")
 EVALOP = list(map(int, getenv("EVALOP", "5059737154").split()))
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://zewdatabase:ijoXgdmQ0NCyg9DO@zewgame.urb3i.mongodb.net/ontap?retryWrites=true&w=majority")
 LOGGER_ID = int(getenv("LOGGER_ID", -1001735663878))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
-GPT_API = getenv("GPT_API")
-PLAYHT_API = getenv("PLAYHT_API")
+GPT_API = getenv("GPT_API", "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")
+PLAYHT_API = getenv("PLAYHT_API", "22e323f342024c0fb4ee430eeb9d0011")
 OWNER_ID = int(getenv("OWNER_ID", 1281282633))
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
