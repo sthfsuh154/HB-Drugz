@@ -17,7 +17,7 @@ BOT_USERNAME = getenv("BOT_USERNAME", "thedakkidaikathaval_bot")
 BOT_NAME = getenv("BOT_NAME", "𝞖𝘌𝘈𝘙𝘛𝞑𝘌𝘈𝘛𝂬♡𝂬𝘿𝘙𝘜𝘎𝘡")
 ASSUSERNAME = getenv("ASSUSERNAME", "ice_babygirl")
 EVALOP = list(map(int, getenv("EVALOP", "5059737154").split()))
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://zewdatabase:ijoXgdmQ0NCyg9DO@zewgame.urb3i.mongodb.net/ontap?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI",)
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001735663878"))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
