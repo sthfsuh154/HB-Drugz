@@ -6,7 +6,7 @@ from ANNIEMUSIC import app
 
 
 ######### GOOD NIGHT 
-@app.on_message(filters.command(["n","oodnight","ight"], prefixes=["g","G","n,"N"]))
+@app.on_message(filters.command(["n","oodnight","ight"], prefixes=["g","G","n","N"]))
 def goodnight_command_handler(_, message):
     sender = message.from_user.mention
     send_sticker = random.choice([True, False])
