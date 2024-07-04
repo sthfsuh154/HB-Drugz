@@ -6,7 +6,7 @@ from ANNIEMUSIC import app
 
 
 ######### GOOD NIGHT 
-@app.on_message(filters.command(["n","oodnight",], prefixes=["g","G"]))
+@app.on_message(filters.command(["n","oodnight","ight"], prefixes=["g","G","n,"N"]))
 def goodnight_command_handler(_, message):
     sender = message.from_user.mention
     send_sticker = random.choice([True, False])
@@ -22,11 +22,13 @@ def goodnight_command_handler(_, message):
 
 def get_random_sticker():
     stickers = [
-        "CAACAgQAAx0Ce9_hCAACaEVlwn7HeZhgwyVfKHc3WUGC_447IAACLgwAAkQwKVPtub8VAR018x4E", # Sticker 1
-        "CAACAgIAAx0Ce9_hCAACaEplwn7dvj7G0-a1v3wlbN281RMX2QACUgwAAligOUoi7DhLVTsNsh4E", # Sticker 2
-        "CAACAgIAAx0Ce9_hCAACaFBlwn8AAZNB9mOUvz5oAyM7CT-5pjAAAtEKAALa7NhLvbTGyDLbe1IeBA", # Sticker 3
-        "CAACAgUAAx0CcmOuMwACldVlwn9ZHHF2-S-CuMSYabwwtVGC3AACOAkAAoqR2VYDjyK6OOr_Px4E",
-        "CAACAgIAAx0Ce9_hCAACaFVlwn-fG58GKoEmmZpVovxEj4PodAACfwwAAqozQUrt2xSTf5Ac4h4E",
+        "CAACAgQAAx0Ce2KwywABAU-fZobjXdmgKXmKWrVWOJk6HnB4vXEAApsQAAJCWf0ETJDh9FNzBJgeBA",
+"CAACAgEAAx0Ce2KwywABAU-OZobi2aV1TnJkD2D10pdg09jhC88AAu0AA1EpDTk2V7yXSF8KHx4E",
+"CAACAgEAAx0Ce2KwywABAU-bZobjMKemr4domSBhF2xGFlKM0gkAAplBAAJbnC4ae2lF5vUQWoIeBA",
+"CAACAgEAAx0Ce2KwywABAU-dZobjSPYaQV6VM6J7HxxAHSmKz7YAAu8AA1EpDTnVI_Mr4Iy9Fx4E",
+"CAACAgEAAx0Ce2KwywABAU_iZoblZeGTCFSIOLKJ0Ray843KcUMAAkUBAAJRKQ05nA448EOWeAoeBA",
+"CAACAgEAAx0Ce2KwywABAU_qZoblo7FnSJ6imJ-aCaZ3HN7k5J4AAjEBAAJRKQ05Cwjl42PzQfUeBA",
+"CAACAgUAAx0Ce2KwywABAU_uZobly5MRnt4PrQ5oTujq3pmvdFUAAqMBAAL_VAlXWVi8oa7uK70eBA"
     ]
     return random.choice(stickers)
 
