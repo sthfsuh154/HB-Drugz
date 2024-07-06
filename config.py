@@ -21,7 +21,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI",)
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001735663878"))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
-GPT_API = getenv("GPT_API", "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")
+GPT_API = getenv("GPT_API", "sk-proj-h6pk40oVRIxpXwrf3i50T3BlbkFJGVET8wX1yJtdi0zCWjDQ")
 PLAYHT_API = getenv("PLAYHT_API", "22e323f342024c0fb4ee430eeb9d0011")
 OWNER_ID = int(getenv("OWNER_ID", 1281282633))
 
