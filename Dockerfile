@@ -13,6 +13,7 @@ RUN python -m pip install "pymongo[srv]"
 RUN python3 -m pip install --no-cache-dir --upgrade pip
 
 # Install Python dependencies
+RUN pip3 install yt-dlp -U
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 CMD bash start
