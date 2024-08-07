@@ -63,3 +63,4 @@ beautifulsoup4
 bs4
 cloudscraper
 SafoneAPI
+spotdl
