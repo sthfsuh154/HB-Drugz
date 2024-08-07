@@ -67,4 +67,4 @@ spotifysearch
 spotify-dlx
 spotify-dl
 spotify-dlp
-sp-yt-search
+
